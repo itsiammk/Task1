@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+ width: 70%;  
+ background-color: rgb(227, 227, 227);
+}
+.first{
+  padding: 0 10px 0px 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.second{
+  padding: 0 10px 0px 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.third{
+  padding: 0 10px 0px 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.four{
+  padding: 0 10px 0px 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+
+}
+.ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+  content: "*";
+  display: flex;
+  align-items: end;
+}
+.ant-select-single .ant-select-selector {
+  border-radius: 0;
+}
+.ant-select-selector {
+  border-radius: 0;
+  border: 1px solid black;
+}
+.header-text{
+  background-color: white;
+  padding: 5px 10px;
+  margin: 0px;
+  font-size: 16px;
+}
+.input-tag{
+  border-radius: 0;
+  border: 0.5px solid rgb(50, 49, 49);
+}
+.Property-Description{
+  padding-top: 10px;
+  height: 150px;
+}
+
+.mainContainer{
+  display: flex;
+  gap: 20px
+}
+.devices{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 0 10px;
+  height: 120px;
+  background-color: rgb(227, 227, 227);
+  border: 2px solid rgb(194, 192, 192);
+  border-top: 0 ;
+}
+.filter{
+  border: 2px solid rgb(194, 192, 192);
+  border-top: 0 ;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 0 10px;
+  height: 80px;
+  background-color: rgb(227, 227, 227);
+}
+.device{
+  margin: 5px 0 5px 0;
+}
+.Device-heading{
+  background-color: white;
+  padding: 4px;
+  margin: 0;
+}
+.container2{
+  width: 30%;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.regions-heading{
+  background-color: white;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+.Button{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+.check{
+  margin-bottom: 10px;
+}
+.ant-table-wrapper .ant-table-thead >tr>td{
+  background-color: blue !important;
+}
+.ant-table-wrapper .ant-table-thead >tr>th{
+  background-color: #001529e6 !important;
+  color: white
+  ;
+
+}
+.formMain .ant-table-wrapper {
+  padding: 10px !important;
+  border: 2px solid #b0b0b0a3;
+  border-top: none;
+}
+.backBtn {
+  width: 90px;
+  font-size: 15px;
+  border-radius: 0;
+  margin-bottom: 10px;
+  background-color: #b0b0b0;
+  font-weight: bolder;
+  color: white;
+}

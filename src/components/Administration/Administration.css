@@ -1,0 +1,13 @@
+/* Administration.css */
+
+.administration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .administration-title {
+    font-weight: bold;
+  }
+  

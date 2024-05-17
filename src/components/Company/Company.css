@@ -1,0 +1,13 @@
+/* Company.css */
+
+.company-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .company-title {
+    font-weight: bold;
+  }
+  
